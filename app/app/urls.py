@@ -15,11 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from .settings import INSTALLED_APPS
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
-
-
-elem12_elemelem = ''
